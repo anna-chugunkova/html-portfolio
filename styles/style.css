@@ -1,0 +1,63 @@
+
+header {
+    text-align: center;
+}
+
+
+a {
+    color:#0077b6;
+    font-size: 32px;
+}
+
+a:hover {
+    color:steelblue;
+}
+
+.container {
+    justify-content: center;
+    padding: 1rem;
+    display: flex;
+}
+figure{
+    border: 1px solid lightgray;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+    padding: 1rem;
+}
+
+figure:hover{
+    transition: all 0.5s ease;
+    box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+
+}
+
+figcaption{
+    text-align:center;
+}
+
+img {
+    object-fit: contain;
+    width:300px;
+    height:300px;
+
+}
+
+nav ul {
+    justify-content: center;
+    display: flex;
+    list-style-type: none;
+    gap: 1rem;
+}
+
+nav ul li a {
+    color: steelblue;
+    text-decoration: none;
+    opacity: 0.5;
+    border-bottom: 3px solid transparent;
+}
+
+nav ul li a:hover {
+    transition: all 0.5s;
+    opacity: 1;
+    padding-bottom: 1rem;
+    border-bottom-color: steelblue;
+}
